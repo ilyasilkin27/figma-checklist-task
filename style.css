@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.checklist-container {
+    background-color: #4285F4;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 743px;
+    display: flex;
+    align-items: center;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.details {
+    flex-grow: 1;
+}
+.details .title {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.details .status {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.details .next-action {
+    font-size: 14px;
+    opacity: 0.8;
+}
+.button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #4285F4;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button:hover {
+    background-color: #e0e0e0;
+}
+.button:active {
+    background-color: #d0d0d0;
+    transform: scale(1.1);
+}
